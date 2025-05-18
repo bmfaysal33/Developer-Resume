@@ -62,10 +62,8 @@ nav > button {
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
   margin: 80px auto;
-}
+  padding: 80px 97px 80px 97px;
 
-.why-title {
-  margin-top: 84px;
 }
 
 .why-card {
@@ -78,4 +76,31 @@ nav > button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 48px;
+  /* border: 2px solid; */
+  width: 850px;
+  margin: 48px auto 32px;
+  text-align: start;
+}
+
+.why-card-info > h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.why-card-info > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.why-card-info > button {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  padding: 12px 20px 12px 20px;
+  margin: 32px 0px;
+  font-weight: 400;
+  cursor: pointer;
 }
