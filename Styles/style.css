@@ -54,3 +54,28 @@ nav > button {
   cursor: pointer;
   font-size: larger;
 }
+
+/* Why Section  */
+
+.why {
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  margin: 80px auto;
+}
+
+.why-title {
+  margin-top: 84px 0;
+}
+
+.why-card {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
