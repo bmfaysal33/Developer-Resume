@@ -217,3 +217,37 @@ iframe {
   border-radius: 8px;
   border: none;
 }
+
+/* Footer section done  */
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.614);
+  align-items: center;
+  border-radius: 12px;
+  padding: 12px;
+
+}
+footer > p{
+  color: white;
+}
+
+footer  img{
+  margin-right: 22px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
